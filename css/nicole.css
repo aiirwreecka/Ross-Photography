@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-wrapper {
+  margin: 10px 50px;
+}
+
+.gallery-wrapper img {
+  transition: 1s;
+  padding: 15px;
+  width: 300px;
+}
+
+.gallery-wrapper img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+img {
+  border-radius: 2px;
+}
+
+.back {
+  text-align: end;
+  padding-right: 50px;
+}
+.back a {
+  font-size: 2.5em;
+  color: lightseagreen;
+  transition: 00.5s;
+}
+
+.space {
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  

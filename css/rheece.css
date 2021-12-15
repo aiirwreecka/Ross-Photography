@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  align-items: center;
+}
+
+.gallery-wrapper {
+  display: flexbox;
+}
+
+.gallery-wrapper img {
+  width: 400px;
+  height: 100%;
+  transition: 2s;
+  padding: 15px;
+  width: 300px;
+}
+
+.gallery-wrapper img:hover {
+  filter: grayscale(30%);
+  transform: scale(1.1);
+}
+
+.back {
+  text-align: end;
+  padding-right: 50px;
+}
+.back a {
+  font-size: 2.5em;
+  color: lightseagreen;
+  transition: 00.5s;
+}
+
+.space {
+  height: 50px;
+  width: 100%;
+}
